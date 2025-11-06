@@ -1,0 +1,4 @@
+Model,Brier Score,ECE (10-bin),Calibration Slope,Calibration Intercept
+Gradient Boosting (uncalibrated),0.1435,0.0409,0.598,-0.523
+Platt Scaling (sigmoid),0.1434,0.0452,1.865,1.275
+Isotonic Regression,0.1404,0.0353,1.285,0.398
