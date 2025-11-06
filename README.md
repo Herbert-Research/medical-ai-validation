@@ -73,22 +73,3 @@ pytest test_demo_quickstart.py
 2. **Outcome Modeling** – Compare survival trajectories with non-parametric (Kaplan-Meier) and semi-parametric (Cox PH) approaches.
 3. **Calibration Remediation** – Iterate on probabilistic outputs using Platt scaling and isotonic regression.
 4. **Decision Readout** – Package metrics, plots, and a textual narrative for institutional review board (IRB) and multi-disciplinary tumor board stakeholders.
-
-## Future Work
-
-- Extend from synthetic to retrospective KLASS cohorts; integrate censoring patterns observed in Mannheim registry data.
-- Bundle the workflow into a Snakemake/Prefect pipeline for prospective trial monitoring.
-- Incorporate competing risk models and dynamic deep-learning-based survival estimators for station-level metastasis prediction.
-- Add automated reporting (LaTeX/PDF) for regulatory submissions.
-
-## Bibliography & Prior Work
-
-- Dressler MH*, Choi JH*, et al. Bariatric Surgery in Patients With Prader-Willi Syndrome. *J Metab Bariatr Surg*. 2025;14(2):85-96. Demonstrated rigorous perioperative outcome tracking that informs this toolkit’s survival analyses. *Co-first author.
-
-## Contact
-
-Maximilian Herbert Dressler  
-Mannheim Medical Faculty, University of Heidelberg  
-Research Focus: Validation-first surgical AI for gastric cancer  
-maximilian.dressler@medma.uni-heidelberg.de
-```
