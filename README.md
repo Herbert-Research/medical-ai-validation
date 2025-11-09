@@ -22,7 +22,7 @@ Prospective surgical AI deployments rise or fall on whether model predictions tr
 
 ### 1. Reproducible Environment
 
-The analyses were developed on Ubuntu 22.04, Python 3.11, 16 GB RAM. Estimated runtime < 1 minute.
+The analyses were developed on Ubuntu 22.04, Python 3.11, 16 GB RAM. Estimated runtime < 1 minute. 
 
 ```bash
 # create environment (mamba or conda recommended)
