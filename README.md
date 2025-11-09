@@ -144,6 +144,7 @@ This safeguard prevents silent failures when reporting outcomes to screening com
   - **Synthetic nature:** The primary survival benefits reported in `kaplan_meier_example.png` are derived from clinically-informed simulations to demonstrate pipeline readiness; they do not yet represent results from a prospective trial.
   - **TCGA Proxy:** In the external pilot, N-stage positivity is used as a proxy for "high-risk" status to validate the Cox PH machinery on real-world heterogeneous data.
   - **Calibration threshold:** An Expected Calibration Error (ECE) \> 0.05 is currently flagged as requiring remediation before model outputs should be displayed to surgeons.
+  - **Undefined Medians:** In low-risk cohorts (e.g., TCGA Node-negative), median survival may be reported as `inf` (infinite) if fewer than 50% of patients experience an event during the study period. This reflects robust handling of right-censored data rather than an error.
 
 ## Repository Stewardship
 
